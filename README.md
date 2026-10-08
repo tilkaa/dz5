@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <math.h>
-#include<locale.h>
+#include <locale.h>
 
 int main()
 {
@@ -19,9 +19,9 @@ int main()
     double part1 = cbrt(pow(x, 6) + pow(log(y), 2));
 
     // дробь 
-    double numerator = exp(abs_xy) * pow(abs_xy, x + y);
-    double denominator = atan(x) + atan(z);
-    double part2 = numerator / denominator;
+    double chislitel = exp(abs_xy) * pow(abs_xy, x + y);
+    double znamenatel = atan(x) + atan(z);
+    double part2 = chislitel / znamenatel;
 
     w = part1 + part2;
 
